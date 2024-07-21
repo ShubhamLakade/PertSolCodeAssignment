@@ -21,7 +21,7 @@ public class Comments
 	@Column(name=ID)
 	private int commentId;
 	
-	@Column(name=COMMENTBY)
+	@Column(name=BY)
 	private String name;
 	
 	@Column(name=TEXT)
